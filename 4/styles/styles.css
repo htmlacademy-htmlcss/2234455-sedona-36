@@ -1,0 +1,156 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/ptsans-400.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.page-header{
+    color:#000000;
+    background-color: #FFFFFF;
+}
+
+.navigation-link {
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+    color:#000000;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.main-index {
+    color:#000000;
+    background-color: #FFFFFF;
+    background-image: url("images-index/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.advantages-tittle {
+width: 175px;
+height: 56px;
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+text-transform: uppercase;
+color:#000000;
+background-color: #FFFFFF;
+}
+
+.advantages-description {
+width: 230px;
+height: 63px;
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color:#000000;
+background-color: #FFFFFF;
+}
+
+.advantages-tittle2 {
+width: 505px;
+height: 72px;
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+text-transform: uppercase;
+color:#000000;
+background-color: #FFFFFF;
+}
+
+.advantages-description2 {
+width: 490px;
+height: 26px;
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+text-align: center;
+color:#333333;
+background-color: #FFFFFF;
+}
+
+.advantages-tittle3 {
+width: 230px;
+height: 28px;
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+background-color: #FFFFFF;
+}
+
+.advantages-description3 {
+width: 230px;
+height: 63px;
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #333333;
+background-color: #FFFFFF;
+}
+
+.reservations {
+width: 297px;
+height: 36px;
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+background-color: #FFFFFF;
+}
+
+.reservations-date{
+width: 592px;
+height: 52px;
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+text-align: center;
+color: #333333;
+background-color: #FFFFFF;
+}
