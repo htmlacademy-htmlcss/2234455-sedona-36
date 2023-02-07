@@ -22,9 +22,19 @@ body {
     background-color: #FFFFFF;
 }
 
-.page-header{
+.page-header {
     color:#000000;
     background-color: #FFFFFF;
+}
+
+.navigation-logo {
+    background-image: url("images-index/logonav.svg");
+    background-color: #FFFFFF;
+    position: absolute;
+    width: 140px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
 }
 
 .navigation-link {
@@ -38,6 +48,7 @@ body {
     text-transform: capitalize;
     text-decoration: none;
 }
+
 
 .main-index {
     color:#000000;
