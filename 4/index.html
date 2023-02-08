@@ -12,6 +12,7 @@
         <ul class="navigation-list">
           <li class="navigation-logo">
             <a class="navigation-logo" href="index.html"></a>
+            <img src="images-index/logonav.svg" width="138px" height="64px" alt="Логотип города Седона">
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="main.html">Главная</a>
@@ -25,39 +26,27 @@
         </ul>
         <ul class="navigation-user">
           <li class="navigation-item">
-            <a class="navigation-link" href="#">
               <span class="visually-hidden">
-                Поиск
+                <button class="navigation-link-search" type="button"></button>
               </span>
-            </a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">
               <img class="basket" src="images-index/vector.svg" width="18" height="17" alt="Корзина с покупками">
               <span class="visually-hidden">
-                Закладки
               </span>
             </a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="#">
-              <img class="checkout" src="images-index/button.png" width="160" height="36" alt="Перейти к оформлению заказа">
               <span class="visually-hidden">
-                Оформить заявку
+                <button class="navigation-link-button" type="button">ХОЧУ СЮДА!</button>
               </span>
-            </a>
           </li>
         </ul>
       </nav>
     </header>
     <main class="main-index">
-      <h1 class="visually-hidden">Город Седона</h1>
-      <img class="logo" src="#" alt="Логотип города">
-
       <section class="advantages">
-        <h2 class="visually-hidden">Седона — небольшой городок в Аризоне,<br>
-          заслуживающий большего!</h2>
-          <p class="visually-hidden">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
           <img class="advantages-hero" src="images-index/hero.jpg" width="1200" height="767" alt="Вид Седоны">
           <ul class="advantages-list">
             <li class="advantages-item">
@@ -108,22 +97,16 @@
       <section class="reservations">
         <h4 class="reservations">Заинтересовались?</h4>
         <p class="reservations-date">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <a class="button" href="catalog.html">Поиск гостиницы в Седоне
-          <img class="reservations-butter" src="images-index/button2.png" width="376" height="52" alt="Перейти к оформлению заказа">
-        </a>
+          <button class="reservation-button" type="button">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
       </section>
 
-      <section>
+      <section class="background-image-section">
         <h5 class="newsletter">Подпишитесь на рассылку</h5>
         <p class="newsletter-conditions">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
-        <img class="background-image" src="images-index/catalog-background-1-redactor.jpg" width="1200" height="415" alt="Фоновый рисунок">
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
           <label for="newsletter-email">Email</label>
           <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
-          <button class="button newsletter-button" type="submit">
-          <span class="visually-hidden">Подписаться</span>
-          <img class="newsletter-button" src="images-index/button3.png" width="232" height="52" alt="Подписаться">
-          </button>
+          <button class="button newsletter-button" type="button">ПОДПИСАТЬСЯ</button>
         </form>
       </section>
     </main>
@@ -133,20 +116,23 @@
         <ul class="footer-social-list">
           <li class="footer-social-item">
             <a class="button" href="https://vk.com/htmlacademy">
-              <span class="visually-hidden">ВКонтакте</span>
+              <span class="visually-hidden">
               <img class="socal-vk" src="images-index/vk.png" width="24" height="14" alt="ВКонтакте">
+              </span>
             </a>
           </li>
           <li class="footer-social-item">
             <a class="button" href="https://t.me/htmlacademy">
-              <span class="visually-hidden">Телеграм</span>
+              <span class="visually-hidden">
               <img class="socal-telegram" src="images-index/telegram.png" width="18" height="15" alt="Телеграм">
+              </span>
             </a>
           </li>
           <li class="footer-social-item">
             <a class="button" href="https://www.youtube.com/user/htmlacademyru">
-              <span class="visually-hidden">Ютуб</span>
+              <span class="visually-hidden">
               <img class="socal-YouTube" src="images-index/youtube.png" width="22" height="17" alt="Ютуб">
+              </span>
             </a>
           </li>
         </ul>
@@ -158,8 +144,9 @@
 
       <section class="developer">
         <a class="button" href="https://htmlacademy.ru/">
-          <span class="visually-hidden">Сайт разработчика</span>
+          <span class="visually-hidden">
           <img class="socal-cite" src="images-index/html-academy.png" width="115" height="33" alt="Официальный сайт разработчика">
+          </span>
         </a>
       </section>
       </div>

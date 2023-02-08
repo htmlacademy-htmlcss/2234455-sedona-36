@@ -27,11 +27,8 @@ body {
     background-color: #FFFFFF;
 }
 
-.navigation-logo {
-    background-image: url("images-index/logonav.svg");
-    background-color: #FFFFFF;
-    width: 140px;
-    height: 70px;
+li {
+    list-style: none;
 }
 
 .navigation-link {
@@ -46,6 +43,54 @@ body {
     text-decoration: none;
 }
 
+.navigation-link-button {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 50px;
+    gap: 10px;
+    width: 160px;
+    height: 36px;
+    background-color: #756157;
+    border-radius: 4px;
+}
+
+.navigation-link-search {
+    background-image: url("images-index/search.svg");
+    width: 18px;
+    height: 18px;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.reservation-button {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #FFFFFF;
+    background-color: #756157;
+}
+
+.newsletter-button {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #FFFFFF;
+    background-color: #82B3D3;
+    border-radius: 0px 4px 4px 0px;
+}
 
 .main-index {
     color:#000000;
@@ -157,4 +202,61 @@ line-height: 26px;
 text-align: center;
 color: #333333;
 background-color: #FFFFFF;
+}
+
+.background-image-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 258px 104px;
+    gap: 10px;
+    width: 1200px;
+    height: 414.86px;
+    background-image: url("images-index/index-background.jpg");
+}
+
+
+.inner-header {
+    background-image: url("images-index/catalog-background-1-redactor.jpg");
+    width: 1200px;
+    height: 414.86px;
+}
+
+.button-take-it {
+    color:#FFFFFF
+    width: 191px;
+    height: 36px;
+    background-color: #82B3D3;
+    border-radius: 4px;
+}
+
+.product-card-button-dark {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color:#FFFFFF;
+    background-color: #756157;
+}
+
+.product-card-button-blue {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color:#FFFFFF;
+    background-color: #82B3D3;
+}
+
+.product-card-button-green {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color:#FFFFFF;
+    background-color: #7DB54F;
 }
