@@ -32,8 +32,6 @@ body {
     background-color: #FFFFFF;
     width: 140px;
     height: 70px;
-    left: 0px;
-    top: 0px;
 }
 
 .navigation-link {
@@ -139,8 +137,6 @@ background-color: #FFFFFF;
 }
 
 .reservations {
-width: 297px;
-height: 36px;
 font-family: 'PT Sans';
 font-style: normal;
 font-weight: 700;
@@ -153,8 +149,6 @@ background-color: #FFFFFF;
 }
 
 .reservations-date{
-width: 592px;
-height: 52px;
 font-family: 'PT Sans';
 font-style: normal;
 font-weight: 400;
