@@ -30,7 +30,6 @@ body {
 .navigation-logo {
     background-image: url("images-index/logonav.svg");
     background-color: #FFFFFF;
-    position: absolute;
     width: 140px;
     height: 70px;
     left: 0px;
