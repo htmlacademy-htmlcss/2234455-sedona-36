@@ -42,14 +42,16 @@ li {
 }
 
 .navigation-search {
-    src: url(../images/search.svg);
+    background: url(../images/search.svg) no-repeat;
     width: 18px;
 }
 
 .navigation-likes {
-    src: url(../images/love.svg);
+    background: url(../images/love.svg) no-repeat;
     width: 18px;
 }
+
+
 
 .navigation-choice {
     display: flex;
@@ -70,13 +72,14 @@ main {
 }
 
 .welcome {
-    src: url(../images/index-background.jpg);
+    background-image: url(../images/index-background.jpg);
     width: 1200px;
 }
 
 .advantages-item-first,
 .advantages-item-fifth {
     background-color: #82B3D3;
+    color:#FFFFFF
 }
 
 .advantages-item-secound,
@@ -90,7 +93,7 @@ main {
 }
 
 .advantages-service-item-first {
-    src: url(../images/house.svg);
+    background-image: url(../images/house.svg);
 }
 
 .advantages-service-item-secound {
@@ -101,6 +104,18 @@ main {
     src: url(../images/present.svg);
 }
 
-.newsletter newsletter-background {
-    src: url(../images/catalog-background-1-redactor.jpg);
+.newsletter {
+    background-image: url(../images/catalog-background-1-redactor.jpg);
+    width: 1200px;
+    color: #F2F2F2;
+}
+
+.contacts-phone {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #000000;
+    text-decoration: none;
 }
