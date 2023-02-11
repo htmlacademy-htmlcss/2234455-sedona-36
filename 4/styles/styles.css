@@ -2,7 +2,7 @@
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 400;
-    src: url("fonts/ptsans-400.woff2") format("woff2");
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
     font-display: swap;
 }
 
@@ -10,7 +10,7 @@
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 700;
-    src: url("fonts/ptsans-700.woff2") format("woff2");
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
     font-display: swap;
 }
 
@@ -19,38 +19,39 @@ body {
     font-size: 24px;
     line-height: 28px;
     color: #000000;
-    background-color: #FFFFFF;
-}
-
-.page-header {
-    color:#000000;
-    background-color: #FFFFFF;
+    background-color: #F2F2F2;
 }
 
 li {
     list-style: none;
 }
 
+.navigation {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
 .navigation-link {
-    font-family: "PT Sans", sans-serif;
+    font-family: inherit;
     font-style: normal;
     font-weight: 700;
-    text-align: center;
     font-size: 20px;
     line-height: 24px;
-    color:#000000;
-    text-transform: capitalize;
+    color: #000000;
     text-decoration: none;
 }
 
-.navigation-link-button {
-    font-family: 'PT Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    color: #FFFFFF;
-    text-align: center;
+.navigation-search {
+    src: url(../images/search.svg);
+    width: 18px;
+}
+
+.navigation-likes {
+    src: url(../images/love.svg);
+    width: 18px;
+}
+
+.navigation-choice {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -58,205 +59,48 @@ li {
     padding: 8px 50px;
     gap: 10px;
     width: 160px;
-    height: 36px;
+    text-decoration: none;
     background-color: #756157;
-    border-radius: 4px;
+    color: #FFFFFF;
 }
 
-.navigation-link-search {
-    background-image: url("images-index/search.svg");
-    width: 18px;
-    height: 18px;
-    color: #000000;
+main {
+    font-family: inherit;
     background-color: #FFFFFF;
 }
 
-.reservation-button {
-    font-family: 'PT Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 36px;
-    color: #FFFFFF;
-    background-color: #756157;
-}
-
-.newsletter-button {
-    font-family: 'PT Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 36px;
-    color: #FFFFFF;
-    background-color: #82B3D3;
-    border-radius: 0px 4px 4px 0px;
-}
-
-.main-index {
-    color:#000000;
-    background-color: #FFFFFF;
-    background-image: url("images-index/hero.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-}
-
-.advantages-tittle {
-width: 175px;
-height: 56px;
-font-family: 'PT Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 28px;
-text-align: center;
-text-transform: uppercase;
-color:#000000;
-background-color: #FFFFFF;
-}
-
-.advantages-description {
-width: 230px;
-height: 63px;
-font-family: 'PT Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 21px;
-text-align: center;
-color:#000000;
-background-color: #FFFFFF;
-}
-
-.advantages-tittle2 {
-width: 505px;
-height: 72px;
-font-family: 'PT Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 30px;
-line-height: 36px;
-text-align: center;
-text-transform: uppercase;
-color:#000000;
-background-color: #FFFFFF;
-}
-
-.advantages-description2 {
-width: 490px;
-height: 26px;
-font-family: 'PT Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 26px;
-text-align: center;
-color:#333333;
-background-color: #FFFFFF;
-}
-
-.advantages-tittle3 {
-width: 230px;
-height: 28px;
-font-family: 'PT Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 28px;
-text-align: center;
-text-transform: uppercase;
-color: #000000;
-background-color: #FFFFFF;
-}
-
-.advantages-description3 {
-width: 230px;
-height: 63px;
-font-family: 'PT Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 21px;
-text-align: center;
-color: #333333;
-background-color: #FFFFFF;
-}
-
-.reservations {
-font-family: 'PT Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 30px;
-line-height: 36px;
-text-align: center;
-text-transform: uppercase;
-color: #000000;
-background-color: #FFFFFF;
-}
-
-.reservations-date{
-font-family: 'PT Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 26px;
-text-align: center;
-color: #333333;
-background-color: #FFFFFF;
-}
-
-.background-image-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 96px 258px 104px;
-    gap: 10px;
+.welcome {
+    src: url(../images/index-background.jpg);
     width: 1200px;
-    height: 414.86px;
-    background-image: url("images-index/index-background.jpg");
 }
 
-
-.inner-header {
-    background-image: url("images-index/catalog-background-1-redactor.jpg");
-    width: 1200px;
-    height: 414.86px;
-}
-
-.button-take-it {
-    color:#FFFFFF
-    width: 191px;
-    height: 36px;
-    background-color: #82B3D3;
-    border-radius: 4px;
-}
-
-.product-card-button-dark {
-    font-family: 'PT Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    color:#FFFFFF;
-    background-color: #756157;
-}
-
-.product-card-button-blue {
-    font-family: 'PT Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    color:#FFFFFF;
+.advantages-item-first,
+.advantages-item-fifth {
     background-color: #82B3D3;
 }
 
-.product-card-button-green {
-    font-family: 'PT Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    color:#FFFFFF;
-    background-color: #7DB54F;
+.advantages-item-secound,
+.advantages-item-fourth {
+    background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-service-item-first,
+.advantages-service-item-third {
+    background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-service-item-first {
+    src: url(../images/house.svg);
+}
+
+.advantages-service-item-secound {
+    src: url(../images/food.svg);
+}
+
+.advantages-service-item-third {
+    src: url(../images/present.svg);
+}
+
+.newsletter newsletter-background {
+    src: url(../images/catalog-background-1-redactor.jpg);
 }
