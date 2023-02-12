@@ -54,6 +54,7 @@ li {
 
 
 .navigation-choice {
+    font-family: inherit;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -64,6 +65,74 @@ li {
     text-decoration: none;
     background-color: #756157;
     color: #FFFFFF;
+}
+
+.reservations-button {
+    font-family: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 50px;
+    gap: 10px;
+    width: 376px;
+    background-color: #756157;
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+.about-hotel {
+    font-family: inherit;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 50px;
+    gap: 10px;
+    width: 140px;
+    background-color: #756157;
+    color: #FFFFFF;
+}
+
+.add-to-favourites {
+    font-family: inherit;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 50px;
+    gap: 10px;
+    width: 140px;
+    background-color: #82B3D3;
+    color: #FFFFFF;
+}
+
+.added-to-favourites {
+    font-family: inherit;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 50px;
+    gap: 10px;
+    width: 140px;
+    background-color: #7DB54F;
+    color: #FFFFFF;
+}
+
+.button {
+    font-family: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 50px;
+    gap: 10px;
+    background-color: #82B3D3;
+    color:#FFFFFF
 }
 
 main {
@@ -97,11 +166,11 @@ main {
 }
 
 .advantages-service-item-secound {
-    src: url(../images/food.svg);
+    background-image: url(../images/food.svg);
 }
 
 .advantages-service-item-third {
-    src: url(../images/present.svg);
+    background-image: url(../images/present.svg);
 }
 
 .newsletter {
@@ -118,4 +187,15 @@ main {
     line-height: 40px;
     color: #000000;
     text-decoration: none;
+}
+
+.catalog-header {
+    background-image: url(../images/catalog-background-1-redactor.jpg);
+    width: 1200px;
+    color:#FFFFFF;
+}
+
+.button-oficial-site {
+    text-decoration: none;
+    color:#000000;
 }
