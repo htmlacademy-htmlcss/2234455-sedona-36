@@ -110,11 +110,13 @@
             <button class="button" type="reset">Сбросить</button>
           </form>
         </section>
-        <section class="about-hotels" aria-label="Сортировка">
+        <section class="about-hotels">
           <h2>Найдено гостиниц: 38</h2>
-          <option value="cheap">Сначала дешёвые</option>
-          <option value="expensive">Сначала дорогие</option>
-          <option value="popular">Сначала популярные</option>
+          <select aria-label="Сортировка">
+            <option value="cheap" selected>Сначала дешёвые</option>
+            <option value="expensive">Сначала дорогие</option>
+            <option value="popular">Сначала популярные</option>
+          </select>
         </section>
         <section class="hotels">
           <h2 class="visually-hidden">Выбор гостиниц</h2>

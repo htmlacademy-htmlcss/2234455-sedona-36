@@ -42,16 +42,19 @@ li {
 }
 
 .navigation-search {
-    src: url(../images/search.svg);
+    background: url(../images/search.svg) no-repeat;
     width: 18px;
 }
 
 .navigation-likes {
-    src: url(../images/love.svg);
+    background: url(../images/love.svg) no-repeat;
     width: 18px;
 }
 
+
+
 .navigation-choice {
+    font-family: inherit;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -64,19 +67,88 @@ li {
     color: #FFFFFF;
 }
 
+.reservations-button {
+    font-family: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 50px;
+    gap: 10px;
+    width: 376px;
+    background-color: #756157;
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+.about-hotel {
+    font-family: inherit;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 50px;
+    gap: 10px;
+    width: 140px;
+    background-color: #756157;
+    color: #FFFFFF;
+}
+
+.add-to-favourites {
+    font-family: inherit;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 50px;
+    gap: 10px;
+    width: 140px;
+    background-color: #82B3D3;
+    color: #FFFFFF;
+}
+
+.added-to-favourites {
+    font-family: inherit;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 50px;
+    gap: 10px;
+    width: 140px;
+    background-color: #7DB54F;
+    color: #FFFFFF;
+}
+
+.button {
+    font-family: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 50px;
+    gap: 10px;
+    background-color: #82B3D3;
+    color:#FFFFFF
+}
+
 main {
     font-family: inherit;
     background-color: #FFFFFF;
 }
 
 .welcome {
-    src: url(../images/index-background.jpg);
+    background-image: url(../images/index-background.jpg);
     width: 1200px;
 }
 
 .advantages-item-first,
 .advantages-item-fifth {
     background-color: #82B3D3;
+    color:#FFFFFF
 }
 
 .advantages-item-secound,
@@ -90,17 +162,40 @@ main {
 }
 
 .advantages-service-item-first {
-    src: url(../images/house.svg);
+    background-image: url(../images/house.svg);
 }
 
 .advantages-service-item-secound {
-    src: url(../images/food.svg);
+    background-image: url(../images/food.svg);
 }
 
 .advantages-service-item-third {
-    src: url(../images/present.svg);
+    background-image: url(../images/present.svg);
 }
 
-.newsletter newsletter-background {
-    src: url(../images/catalog-background-1-redactor.jpg);
+.newsletter {
+    background-image: url(../images/catalog-background-1-redactor.jpg);
+    width: 1200px;
+    color: #F2F2F2;
+}
+
+.contacts-phone {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.catalog-header {
+    background-image: url(../images/catalog-background-1-redactor.jpg);
+    width: 1200px;
+    color:#FFFFFF;
+}
+
+.button-oficial-site {
+    text-decoration: none;
+    color:#000000;
 }
