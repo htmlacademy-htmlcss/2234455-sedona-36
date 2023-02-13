@@ -65,6 +65,7 @@ li {
     text-decoration: none;
     background-color: #756157;
     color: #FFFFFF;
+    text-transform: uppercase;
 }
 
 .reservations-button {
@@ -132,7 +133,8 @@ li {
     padding: 8px 50px;
     gap: 10px;
     background-color: #82B3D3;
-    color:#FFFFFF
+    color:#FFFFFF;
+    font-size: 20px;
 }
 
 main {
@@ -143,6 +145,9 @@ main {
 .welcome {
     background-image: url(../images/index-background.jpg);
     width: 1200px;
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: 0%;
 }
 
 .advantages-item-first,
@@ -156,6 +161,10 @@ main {
     background-color: rgba(131, 179, 211, 0.12);
 }
 
+.advantages-item-third {
+    background-color: rgba(131, 179, 211, 0.2);
+}
+
 .advantages-service-item-first,
 .advantages-service-item-third {
     background-color: rgba(131, 179, 211, 0.12);
@@ -163,20 +172,29 @@ main {
 
 .advantages-service-item-first {
     background-image: url(../images/house.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .advantages-service-item-secound {
     background-image: url(../images/food.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .advantages-service-item-third {
     background-image: url(../images/present.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .newsletter {
     background-image: url(../images/catalog-background-1-redactor.jpg);
     width: 1200px;
     color: #F2F2F2;
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: 0%;
 }
 
 .contacts-phone {
@@ -198,4 +216,51 @@ main {
 .button-oficial-site {
     text-decoration: none;
     color:#000000;
+}
+
+.field {
+    font-family: inherit;
+}
+
+h2 {
+    font-family: inherit;
+    width: 620px;
+    height: 72px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+p {
+    width: 651px;
+    height: 26px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #333333;
+}
+
+h3 {
+    width: 175px;
+    height: 56px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.reservations-button {
+    font-family: inherit;
+    text-transform: uppercase;
 }
