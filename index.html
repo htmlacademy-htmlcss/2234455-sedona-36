@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
-    <header class="page-header">
+    <header class="page-header container">
       <nav class="navigation">
         <a class="logo" href="index.html">
           <img src="images/logo-sedona.svg" width="138" height="64" alt="Логотип города Седона.">
@@ -36,13 +36,13 @@
           </li>
           <li class="navigation-user-item">
             <a class="navigation-choice" href="#">
-              <span>Хочу сюда!</span>
+              <span class="navigation-choice-text">Хочу сюда!</span>
             </a>
           </li>
         </ul>
       </nav>
     </header>
-    <main class="main-index">
+    <main class="main-index container">
       <section class="welcome">
         <h1 class="visually-hidden">Добро пожаловать в город Седона</h1>
         <img class="welcome-text" src="images/welcometext.svg" width="458" height="352" alt="Добро пожаловать в Седону.">
@@ -55,7 +55,7 @@
             <li class="advantages-item-first">
               <h3 class="advantages-title-first">Настоящий городок</h3>
               <p class="advantages-description-first">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-              <img class="advantages-photo" src="images/photo-1.jpg" width="800" height="384" alt="Фото города.">
+              <img class="advantages-photo" src="images/photo-1.jpg" width="800" height="385" alt="Фото города.">
             </li>
             <li class="advantages-item-secound">
               <h3 class="advantages-title-secound">Небольшая площадь</h3>
@@ -94,7 +94,7 @@
           </li>
         </ul>
       </section>
-      <section class="reservations">
+      <section class="reservations-search">
         <h2 class="reservations">Заинтересовались?</h2>
         <p class="reservations-text">Укажите предполагаемые даты поездки и мы покажем вам лучшие предложения гостиниц в Седоне</p>
         <a class="reservations-button" href="#">Поиск гостиницы в Седоне</a>
@@ -103,13 +103,13 @@
         <h2 class="newsletter">Подпишитесь на рассылку</h2>
         <p class="newsletter-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-          <label for="newsletter-email">Email</label>
+          <label for="newsletter-email" class="visually-hidden">Email</label>
           <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
           <button class="button newsletter-button" type="submit">Подписаться</button>
         </form>
       </section>
     </main>
-    <footer class="page-footer">
+    <footer class="page-footer container">
       <section class="join-us">
         <h2 class="visually-hidden">Связаться с нами!</h2>
         <ul class="social-link">
