@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Алексей Коромыслов](https://up.htmlacademy.ru/htmlcss/36/user/2234455).
-* Наставник: `Дмитрий (sench) Железцов`.
+* Наставник: [Анна Лисененкова](https://htmlacademy.ru/profile/ankhena).
 
 ---
 
