@@ -18,28 +18,34 @@ html {
     height: 100%;
 }
 
+header,
+main,
+footer {
+    width: 1200px;
+    margin: 0 auto;
+}
 
-.main-container {
-    flex-grow: 1;
+header {
+    padding-left: 70px;
+    padding-right: 70 px;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 64px;
 }
 
 .logo {
     display: block;
     width: 140px;
     margin-left: 70px;
-    justify-content: flex-start;
 }
 
 body {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
     font-family: "PT Sans", sans-serif;
     font-size: 24px;
     line-height: 28px;
     color: #000000;
     background-color: #F2F2F2;
+    min-height: 100%;
 }
 
 li {
@@ -48,8 +54,6 @@ li {
 
 .navigation {
     display: flex;
-    width: 1200px;
-    margin: 0 auto;
     background-color: #FFFFFF;
     color: #000000;
 }
@@ -60,9 +64,8 @@ li {
     margin-right: 70px;
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 0;
-    width: 339px;
-    justify-content: space-between;
+    max-width: 450px;
+    justify-content: space-evenly;
 }
 
 .navigation-user {
@@ -70,20 +73,13 @@ li {
     margin-right: 70px;
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 268px;
-    padding: 0;
+    max-width: 350px;
     margin-left: auto;
-    justify-content: space-between;
-}
-
-.page-container {
-    width: 1200px;
-    margin: 0 auto;
+    justify-content: space-evenly;
 }
 
 .navigation-link {
-    font-family: inherit;
-    font-style: normal;
+    font-family: "PT Sans", sans-serif;
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
@@ -107,10 +103,9 @@ li {
 .navigation-choice {
     font-family: inherit;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 8px 50px;
+    padding: 8px 20px;
     width: 160px;
     text-decoration: none;
     background-color: #756157;
@@ -118,24 +113,12 @@ li {
     text-transform: uppercase;
 }
 
-.navigation-choice-text {
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
 .reservations-button {
-    font-family: inherit;
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 36px;
     text-align: center;
-    display: flex;
-    width: 376px;;
+    width: 376px;
     padding: 8px 50px;
     background-color: #756157;
     color:#FFFFFF;
@@ -143,14 +126,10 @@ li {
 }
 
 .about-hotel {
-    font-family: inherit;
     text-decoration: none;
-    display: flex;
+    text-align: center;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
     padding: 8px 50px;
-    gap: 10px;
     width: 140px;
     background-color: #756157;
     color: #FFFFFF;
@@ -158,14 +137,9 @@ li {
 
 .add-to-favourites,
 .added-to-favourites {
-    font-family: inherit;
     text-decoration: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     padding: 8px 50px;
-    gap: 10px;
     width: 140px;
     background-color: #82B3D3;
     color: #FFFFFF;
@@ -178,53 +152,33 @@ li {
 
 .button {
     font-family: inherit;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     padding: 8px 50px;
-    gap: 10px;
     background-color: #82B3D3;
     color:#FFFFFF;
     font-size: 20px;
 }
 
-main {
-    font-family: inherit;
+.main-index {
     background-color: #FFFFFF;
 }
 
 .welcome {
     background-image: url(../images/index-background.jpg);
-    width: 1200px;
     background-repeat: repeat;
     background-size: cover;
-    background-position: 0%;
+    background-position: top;
 }
 
 .welcome-text {
-    align-items: center;
-    height: 352px;
-    width: 458px;
     display: block;
     margin-left: auto;
     margin-right: auto
 }
 
 
-.advantages-photo-first {
-    flex-grow: 0;
-    flex: none;
-}
-
-.advantages-photo-secound {
-    flex-grow: 0;
-    flex: none;
-}
 
 .advantages-service-list {
     display: flex;
-    justify-content: center;
 }
 
 
@@ -234,7 +188,7 @@ main {
     color:#FFFFFF;
 }
 
-.advantages-item-secound,
+.advantages-item-second,
 .advantages-item-fourth {
     background-color: rgba(131, 179, 211, 0.12);
 }
@@ -243,9 +197,7 @@ main {
     background-color: rgba(131, 179, 211, 0.2);
 }
 
-.advantages-service-item-first,
-.advantages-service-item-secound,
-.advantages-service-item-third {
+.advantages-service-item {
     width: 400px;
 }
 
@@ -258,19 +210,19 @@ main {
 .advantages-service-item-first {
     background-image: url(../images/house.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
-.advantages-service-item-secound {
+.advantages-service-item-second {
     background-image: url(../images/food.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .advantages-service-item-third {
     background-image: url(../images/present.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .newsletter-background {
@@ -279,12 +231,11 @@ main {
     background-repeat: repeat;
     background-size: cover;
     background-position: 0%;
+    background-color: #82B3D3;
 }
 
 .newsletter,
 .newsletter-catalog {
-    font-family: inherit;
-    font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
@@ -353,7 +304,7 @@ main {
 }
 
 
-.button-oficial-site {
+.button-official-site {
     text-decoration: none;
     color:#000000;
     max-width: 115px;
@@ -536,7 +487,7 @@ h3 {
     justify-content: flex-start;
 }
 
-.button-oficial-site {
+.button-official-site {
     background-image: url(../images/html-academy.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -582,8 +533,6 @@ h3 {
 }
 
 .catalog-head {
-    font-family: inherit;
-    font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
@@ -591,7 +540,7 @@ h3 {
     color: #000000;
 }
 
-.sorting-by-price {
+.sorting {
     font-family: inherit;
     font-style: normal;
     font-weight: 400;
@@ -602,9 +551,6 @@ h3 {
 
 .type-of-hotel,
 .price {
-    font-family: inherit;
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     color: #333333;
@@ -613,8 +559,6 @@ h3 {
 
 
 .raiting {
-    font-family: inherit;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -622,57 +566,45 @@ h3 {
     text-transform: uppercase;
     color: #333333;
     width: 140px;
-    height: 37px;
-    left: 160px;
+    min-height: 37px;
     background: #F2F2F2;
     border-radius: 4px;
+    padding-top: 9px;
+    padding-bottom: 8px;
+    padding-left: 23px;
+    padding-right: 22px;
 }
 
 .hotel-name {
     font-family: inherit;
-    font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
-    color: #000000;
-    text-transform: none;
-}
-
-.pagination-link-pagination-current-first {
-    width: 60px;
-    height: 60px;
-    background: #F2F2F2;
-    border-radius: 4px;
-    font-family: inherit;
     color: #000000;
 }
 
 .pagination-link-pagination-current {
     width: 60px;
     height: 60px;
-    background: #82B3D3;;
+    background: #F2F2F2;
     border-radius: 4px;
     font-family: inherit;
+    color: #000000;
+}
+
+.pagination-link-pagination {
+    width: 60px;
+    height: 60px;
+    background: #82B3D3;;
+    border-radius: 4px;
     color: #FFFFFF;
 }
 
-.newsletter-catalog {
-    color: #000000;
-    text-align: center;
-}
+
 .page-footer{
     background-color: #FFFFFF;
 }
 
-.page-footer-container {
-    display: flex;
-    width: 1200px;
-    margin: 0 auto;
-    justify-content: space-around;
-}
-
 .advantages-list {
     display: flex;
-    justify-content: center;
-
 }
