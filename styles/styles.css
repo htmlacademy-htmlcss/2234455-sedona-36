@@ -603,8 +603,31 @@ h3 {
 
 .page-footer{
     background-color: #FFFFFF;
+    justify-content: space-evenly;
 }
 
 .advantages-list {
     display: flex;
+}
+
+.main-catalog {
+    background-color: #FFFFFF;
+}
+
+.newsletter-title-catalog {
+    color: #000000;
+    background-color: #FFFFFF;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.newsletter-text-catalog {
+    color: #000000;
+    background-color: #FFFFFF;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: none;
 }
