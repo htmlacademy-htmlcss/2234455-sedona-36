@@ -282,6 +282,7 @@ li {
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
+    color: #FFFFFF;
 }
 
 .catalog-filter-infrastructure,
@@ -630,4 +631,28 @@ h3 {
     font-size: 22px;
     line-height: 26px;
     text-transform: none;
+}
+
+.hotel-view-table {
+    background-image: url(../images/vector1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.hotel-view-big {
+    background-image: url(../images/vector2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.hotel-view-list {
+    background-image: url(../images/vector3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000000;
+    background-color: #FFFFFF;
 }
