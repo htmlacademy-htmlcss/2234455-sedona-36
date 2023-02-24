@@ -18,14 +18,13 @@ html {
     height: 100%;
 }
 
-header,
-main,
-footer {
+.container {
     width: 1200px;
     margin: 0 auto;
+    background-color: #FFFFFF;
 }
 
-header {
+.page-header {
     padding-left: 70px;
     padding-right: 70 px;
     padding-top: 0;
@@ -36,7 +35,6 @@ header {
 .logo {
     display: block;
     width: 140px;
-    margin-left: 70px;
 }
 
 body {
@@ -45,11 +43,7 @@ body {
     line-height: 28px;
     color: #000000;
     background-color: #F2F2F2;
-    min-height: 100%;
-}
-
-li {
-    list-style: none;
+    min-height: 100vh;
 }
 
 .navigation {
@@ -65,7 +59,7 @@ li {
     margin-top: 20px;
     margin-bottom: 20px;
     max-width: 450px;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .navigation-user {
@@ -79,7 +73,6 @@ li {
 }
 
 .navigation-link {
-    font-family: "PT Sans", sans-serif;
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
@@ -101,10 +94,10 @@ li {
 
 
 .navigation-choice {
-    font-family: inherit;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 16px;
     padding: 8px 20px;
     width: 160px;
     text-decoration: none;
@@ -128,7 +121,6 @@ li {
 .about-hotel {
     text-decoration: none;
     text-align: center;
-    flex-direction: row;
     padding: 8px 50px;
     width: 140px;
     background-color: #756157;
@@ -158,15 +150,12 @@ li {
     font-size: 20px;
 }
 
-.main-index {
-    background-color: #FFFFFF;
-}
 
 .welcome {
     background-image: url(../images/index-background.jpg);
     background-repeat: repeat;
     background-size: cover;
-    background-position: top;
+    background-position: top center;
 }
 
 .welcome-text {
@@ -201,36 +190,36 @@ li {
     width: 400px;
 }
 
-.advantages-service-item-first,
-.advantages-service-item-third {
+.advantages-service-item-housing,
+.advantages-service-item-souvenirs {
     background-color: rgba(131, 179, 211, 0.12);
     color:#FFFFFF;
 }
 
-.advantages-service-item-first {
+.advantages-service-item-housing {
     background-image: url(../images/house.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
-.advantages-service-item-second {
+.advantages-service-item-food {
     background-image: url(../images/food.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
-.advantages-service-item-third {
+.advantages-service-item-souvenirs {
     background-image: url(../images/present.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .newsletter-background {
-    background-image: url(../images/catalog-background-1-redactor.jpg);
+    background-image: url("../images/newsletter-background.jpg");
     color: #FFFFFF;
     background-repeat: repeat;
     background-size: cover;
-    background-position: 0%;
+    background-position: center;
     background-color: #82B3D3;
 }
 
@@ -254,23 +243,19 @@ li {
     line-height: 40px;
     color: #000000;
     text-decoration: none;
-    margin-top: 45px;
-    margin-left: 448,5px;
-    margin-right: 420,5px;
-    margin-bottom: 35px;
+    text-align: center;
 }
 
 .catalog-background-header {
-    background-image: url(../images/catalog-background-1-redactor.jpg);
+    background-image: url(../images/newsletter-background.jpg);
     background-repeat: repeat;
     background-size: cover;
-    background-position: 0%;
+    background-position: center;
     color: #FFFFFF;
+    background-color: #82B3D3;
 }
 
 .catalog-title {
-    font-family: 'PT Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 60px;
     line-height: 78px;
@@ -285,8 +270,7 @@ li {
     color: #FFFFFF;
 }
 
-.catalog-filter-infrastructure,
-.catalog-type-of-hotels {
+.catalog-legend{
     font-family: inherit;
     font-style: normal;
     font-weight: 700;
@@ -297,26 +281,13 @@ li {
 
 .infrastructure-list,
 .type-hotel {
-    font-family: inherit;
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
 }
 
 
-.button-official-site {
-    text-decoration: none;
-    color:#000000;
-    max-width: 115px;
-    margin-left: auto;
-}
-
-.field {
-    font-family: inherit;
-}
-
-h2 {
+.about-sedona {
     font-family: inherit;
     font-style: normal;
     font-weight: 700;
@@ -334,7 +305,7 @@ h2 {
     padding: 0;
 }
 
-p {
+.text-description {
     font-family: inherit;
     font-style: normal;
     font-weight: 400;
@@ -352,9 +323,7 @@ p {
 }
 
 
-h3 {
-    font-family: inherit;
-    font-style: normal;
+.advantages-title {
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
@@ -363,9 +332,8 @@ h3 {
     color: #000000;
 }
 
+
 .reservations-title {
-    font-family: inherit;
-    font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
@@ -375,8 +343,6 @@ h3 {
 }
 
 .reservations-text {
-    font-family: inherit;
-    font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
@@ -391,7 +357,8 @@ h3 {
 }
 
 .visually-hidden {
-    visibility: hidden;
+    position: fixed;
+    transform: scale(0);
 }
 
 .number-of-selected-hotels {
@@ -400,8 +367,6 @@ h3 {
     text-decoration: none;
     width: 20px;
     height: 20px;
-    left: 20px;
-    top: 11px;
     border-radius: 50%;
     font-weight: 400px;
     font-size: 10px;
@@ -451,7 +416,6 @@ h3 {
 
 .newsletter-button {
     font-family: 'PT Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 36px;
@@ -486,13 +450,6 @@ h3 {
     display: flex;
     justify-content: flex-start;
 }
-
-.button-official-site {
-    background-image: url(../images/html-academy.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 115px;
-    height: 33px;
 }
 
 .breadcrumbs-link-main {
@@ -506,10 +463,9 @@ h3 {
 .button-take-it {
     font-family: inherit;
     text-transform: uppercase;
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 20px;;
+    line-height: 20px;
     background: #82B3D3;
     color: #FFFFFF;
     text-decoration: none;
@@ -522,8 +478,7 @@ h3 {
     text-transform: uppercase;
     font-weight: 700;
     color:#FFFFFF;
-    background-color: rgba(130, 179, 211, 0);
-    font-style: normal;
+    background-color: rgba(0, 0, 0, 0);
     font-size: 16px;
     line-height: 20px;
     align-items: center;
@@ -542,7 +497,6 @@ h3 {
 
 .sorting {
     font-family: inherit;
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
@@ -576,7 +530,6 @@ h3 {
 }
 
 .hotel-name {
-    font-family: inherit;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
@@ -604,7 +557,7 @@ h3 {
 
 .page-footer{
     background-color: #FFFFFF;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .advantages-list {
@@ -634,25 +587,25 @@ h3 {
 }
 
 .hotel-view-table {
-    background-image: url(../images/vector1.svg);
+    background-image: url(../images/view-1.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     color: #000000;
     background-color: #FFFFFF;
 }
 
 .hotel-view-big {
-    background-image: url(../images/vector2.svg);
+    background-image: url(../images/view-2.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     color: #000000;
     background-color: #FFFFFF;
 }
 
 .hotel-view-list {
-    background-image: url(../images/vector3.svg);
+    background-image: url(../images/view-3.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     color: #000000;
     background-color: #FFFFFF;
 }
