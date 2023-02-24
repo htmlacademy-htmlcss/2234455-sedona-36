@@ -53,14 +53,14 @@
               </a>
             </li>
             <li class="breadcrumbs-item">
-              <p class="breadcrumbs-hotels">Гостиницы</p>
+              Гостиницы
             </li>
           </ul>
         <section class="choice-of-hotels">
           <h2 class="visually-hidden">Выбор гостиниц по фильтрам</h2>
           <form class="catalog-filter" action="https://echo.htmlacademy.ru" method="get">
             <fieldset>
-              <legend class="catalog-filter-infrastructure">Инфраструктура</legend>
+              <legend class="catalog-legend">Инфраструктура</legend>
               <ul class="infrastructure-list">
                 <li class="infrastructure-list-item">
                   <label class="control">
@@ -83,7 +83,7 @@
               </ul>
             </fieldset>
             <fieldset>
-              <legend class="catalog-type-of-hotels">Тип жилья</legend>
+              <legend class="catalog-legend">Тип жилья</legend>
               <ul class="type-hotel">
                 <li class="hotel">
                   <label class="control">
@@ -117,19 +117,25 @@
             <option value="expensive">Сначала дорогие</option>
             <option value="popular">Сначала популярные</option>
           </select>
-          <div>
+
             <ul class="catalog-view">
               <li class="hotels-grid">
-                <a class="hotel-view-table" href="#"></a>
+                <a class="views-link views-link-table" href="#">
+                  <span class="visually-hidden">Отображение гостиниц в виде таблицы</span>
+                </a>
               </li>
               <li class="hotels-grid">
-                <a class="hotel-view-big" href="#"></a>
+                <a class="views-link views-link-big" href="#">
+                  <span class="visually-hidden">Крупное отображение гостиниц</span>
+                </a>
               </li>
               <li class="hotels-grid">
-                <a class="hotel-view-list" href="#"></a>
+                <a class="views-link views-link-list" href="#">
+                  <span class="visually-hidden">Отображение гостиниц в виде списка</span>
+                </a>
               </li>
             </ul>
-          </div>
+
           <ul class="hotels-list">
             <li class="hotel-card">
               <img class="product-card-image" src="images/hotel-1.jpg" width="300" height="212" alt="Фото гостиницы Amara Resort & Spa.">
@@ -202,7 +208,7 @@
               <a class="pagination-link" href="#">4</a>
             </li>
             <li class="pagination-item">
-              <a class="pagination-link-next">...</a>
+              <a class="pagination-link pagination-link-next">...</a>
             </li>
             <li class="pagination-item">
               <a class="pagination-link" href="#">10</a>
@@ -249,7 +255,7 @@
       <section class="developer">
         <h2 class="visually-hidden">Сайт разработчика</h2>
         <a class="button-official-site" href="https://htmlacademy.ru/">
-          <span class="visually-hidden">Сайт разработан HTML-Academy</span>
+          <img class="oficial-site" width="115" height="33" alt="Сайт разработан HTML-Academy">
         </a>
       </section>
     </footer>
