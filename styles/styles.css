@@ -177,15 +177,18 @@ body {
 .advantages-item-fifth {
     background-color: #82B3D3;
     color:#FFFFFF;
+    width: 1200px;
 }
 
 .advantages-item-second,
 .advantages-item-fourth {
     background-color: rgba(131, 179, 211, 0.12);
+    width: 400px;
 }
 
 .advantages-item-third {
     background-color: rgba(131, 179, 211, 0.2);
+    width: 400px;
 }
 
 .advantages-service-item {
@@ -231,11 +234,9 @@ body {
     font-size: 30px;
     line-height: 36px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #000000;
+    text-align: center;
 }
-
-
-
 
 .contacts-phone {
     font-weight: 400;
@@ -407,24 +408,30 @@ body {
 }
 
 .social-link-vk {
+    display: block;
     background-image: url(../images/vk.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     width: 24px;
+    height: 14px;
 }
 
 .social-link-tg {
+    display: block;
     background-image: url(../images/telegram.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     width: 18px;
+    height: 15px;
 }
 
 .social-link-youtube {
+    display: block;
     background-image: url(../images/youtube.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     width: 22px;
+    height: 17px;
 }
 
 .social-list {
@@ -432,6 +439,10 @@ body {
     justify-content: flex-start;
 }
 
+.main-index,
+.main-catalog {
+    flex-grow: 1;
+}
 
 .breadcrumbs-link-main {
     background-image: url(../images/house.svg);
@@ -543,6 +554,7 @@ body {
 
 .advantages-list {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .main-catalog {
