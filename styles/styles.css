@@ -46,6 +46,8 @@ body {
     background-color: #F2F2F2;
     min-height: 100vh;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .navigation {
@@ -416,6 +418,7 @@ body {
     height: 14px;
 }
 
+
 .social-link-tg {
     display: block;
     background-image: url(../images/telegram.png);
@@ -555,6 +558,18 @@ body {
 .advantages-list {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.advantages-description-third,
+.advantages-description-fourth {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #333333;
 }
 
 .main-catalog {
