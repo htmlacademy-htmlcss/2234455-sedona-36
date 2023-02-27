@@ -58,25 +58,32 @@ body {
 
 .navigation-list{
     display: flex;
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    flex-wrap: wrap;
     max-width: 450px;
     justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .navigation-user {
     display: flex;
-    margin-right: 70px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    max-width: 350px;
-    margin-left: auto;
+    flex-wrap: wrap;
+    max-width: 450px;
     justify-content: space-evenly;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: 70px;
+    padding: 0;
 }
 
+
 .navigation-link {
+    display: block;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
@@ -84,6 +91,13 @@ body {
     text-decoration: none;
 }
 
+.user-link {
+    display: block;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 .navigation-search {
     background: url(../images/search.svg) no-repeat;
@@ -316,6 +330,10 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: #000000;
+    margin-top: 112,5px;
+    margin-right: 112,5px;
+    margin-left: 112,5px;
+    margin-bottom: 62px;
 }
 
 
@@ -343,9 +361,16 @@ body {
 }
 
 .visually-hidden {
-    position: fixed;
-    transform: scale(0);
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
+
 
 .number-of-selected-hotels {
     color:#FFFFFF;
@@ -364,12 +389,16 @@ body {
 .advantages-title-fifth {
     color:#FFFFFF;
     text-align: center;
+    padding-top: 0;
+    padding-bottom: 62px;
 }
+
 
 .advantages-description-first,
 .advantages-description-fifth {
     color:#FFFFFF;
     text-align: center;
+    margin: 0;
 }
 
 .newsletter-text {
@@ -558,9 +587,11 @@ body {
 .advantages-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     flex-direction: row;
     list-style-type: none;
     padding: 0;
+    margin: 0;
 
 }
 
