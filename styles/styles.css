@@ -27,18 +27,16 @@ html {
 
 .page-header {
     padding-left: 70px;
-    padding-right: 70 px;
+    padding-right: 70px;
     padding-top: 0;
     padding-bottom: 0;
-    height: 64px;
+    min-height: 60px;
 }
 
 .logo {
     display: block;
     width: 140px;
-    margin-top: 0;
-    margin-bottom: 29px;
-
+    margin-bottom: -6px;
 }
 
 body {
@@ -55,6 +53,7 @@ body {
 
 .navigation {
     display: flex;
+    flex-wrap: wrap;
     background-color: #FFFFFF;
     color: #000000;
 }
@@ -73,11 +72,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     max-width: 450px;
-    justify-content: space-evenly;
+    justify-content: space-between;
     list-style-type: none;
     margin-left: auto;
-    margin-right: 70px;
+    margin-top: 0;
+    margin-bottom: 0;
     padding: 0;
+    align-items: center;
 }
 
 
@@ -118,7 +119,6 @@ body {
 
 .navigation-choice {
     display: block;
-    justify-content: center;
     align-items: center;
     font-size: 16px;
     padding: 8px 34px;
@@ -339,7 +339,7 @@ body {
     margin-top: 112,5px;
     margin-right: 112,5px;
     margin-left: 112,5px;
-    margin-bottom: 62px;
+    margin-bottom: 58px;
 }
 
 
@@ -398,7 +398,7 @@ body {
     color:#FFFFFF;
     text-align: center;
     padding-top: 0;
-    padding-bottom: 62px;
+    margin-bottom: 58px;
 }
 
 
@@ -623,6 +623,7 @@ body {
 }
 
 .advantages-item-wide-reverse {
+ display: flex;
  flex-direction: row-reverse;
 }
 
