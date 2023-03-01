@@ -36,6 +36,9 @@ html {
 .logo {
     display: block;
     width: 140px;
+    margin-top: 0;
+    margin-bottom: 29px;
+
 }
 
 body {
@@ -97,6 +100,8 @@ body {
     padding-right: 16px;
     padding-top: 20px;
     padding-bottom: 20px;
+    min-height: 25px;
+    min-width: 30px;
 }
 
 .navigation-search {
@@ -112,11 +117,11 @@ body {
 
 
 .navigation-choice {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     font-size: 16px;
-    padding: 8px 20px;
+    padding: 8px 34px;
     width: 160px;
     text-decoration: none;
     background-color: #756157;
@@ -209,6 +214,7 @@ body {
 
 .advantages-service-item {
     width: 400px;
+    list-style-type: none;
 }
 
 .advantages-service-item-housing,
@@ -383,6 +389,8 @@ body {
     font-size: 10px;
     line-height: 10px;
     text-align: center;
+    margin-top: 16px;
+    margin-bottom: 38px;
 }
 
 .advantages-title-first,
@@ -468,6 +476,7 @@ body {
 
 .social-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-start;
 }
 
@@ -560,6 +569,12 @@ body {
     color: #000000;
 }
 
+.pagination {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
 .pagination-link-current,
 .pagination-link-next {
     width: 60px;
@@ -580,6 +595,8 @@ body {
 
 
 .page-footer{
+    display: flex;
+    flex-wrap: wrap;
     background-color: #FFFFFF;
     justify-content: space-between;
 }
@@ -593,6 +610,20 @@ body {
     padding: 0;
     margin: 0;
 
+}
+
+.advantages-item-container {
+    width: 230px;
+    min-height: 200px;
+    padding: 90px 85px;
+}
+
+.advantages-item-wide {
+ display: flex;
+}
+
+.advantages-item-wide-reverse {
+ flex-direction: row-reverse;
 }
 
 .advantages-description-third,
@@ -652,4 +683,20 @@ body {
 .newsletter-title-main,
 .newsletter-text-main {
     color: #FFFFFF;
+}
+
+.social-item {
+    list-style-type: none;
+}
+
+.catalog-view {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.hotels-list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
 }
