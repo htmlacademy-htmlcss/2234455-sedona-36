@@ -62,7 +62,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     max-width: 450px;
-    justify-content: space-between;
+    justify-content: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -72,7 +72,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     max-width: 450px;
-    justify-content: space-between;
+    justify-content: center;
     list-style-type: none;
     margin-left: auto;
     margin-top: 0;
@@ -319,13 +319,10 @@ body {
     line-height: 21px;
     text-align: center;
     color: #333333;
-    display: flex;
     justify-content: center;
     padding: 0;
     margin-top: 25px;
-    margin-left: 274,5px;
     margin-bottom: 69px;
-    margin-right: 274,5px;
 }
 
 
@@ -699,5 +696,17 @@ body {
 .hotels-list{
     display: flex;
     flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.breadcrumbs-item {
+    list-style-type: none;
+}
+
+.infrastructure-list-item {
+    list-style-type: none;
+}
+
+.type-hotel {
     list-style-type: none;
 }
