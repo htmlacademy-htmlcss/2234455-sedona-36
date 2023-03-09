@@ -145,24 +145,44 @@ body {
     text-decoration: none;
     text-align: center;
     padding: 8px 50px;
-    width: 140px;
     background-color: #756157;
     color: #FFFFFF;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 20px;
+    align-self: center;
+    padding-top: 8px;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-bottom: 8px;
 }
+
 
 .add-to-favourites,
 .added-to-favourites {
     text-decoration: none;
     text-align: center;
     padding: 8px 50px;
-    width: 140px;
     background-color: #82B3D3;
     color: #FFFFFF;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 20px;
+    align-self: center;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 8px;
 }
 
 .added-to-favourites {
     background-color: #7DB54F;
-
+    padding-top: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 8px;
 }
 
 .button {
@@ -536,8 +556,15 @@ body {
 .type-of-hotel,
 .price {
     font-size: 18px;
-    line-height: 21px;
     color: #333333;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.price {
+    text-align: right;
 }
 
 
@@ -545,25 +572,34 @@ body {
 .raiting {
     font-weight: 400;
     font-size: 16px;
-    line-height: 20px;
     text-align: center;
     text-transform: uppercase;
     color: #333333;
-    width: 140px;
     min-height: 37px;
     background: #F2F2F2;
     border-radius: 4px;
     padding-top: 9px;
-    padding-bottom: 8px;
-    padding-left: 23px;
+    padding-bottom: 9px;
+    padding-left: 22px;
     padding-right: 22px;
+    align-self: center;
+}
+
+.product-card-image {
+    grid-column: 1 / -1;
 }
 
 .hotel-name {
     font-weight: 700;
     font-size: 24px;
-    line-height: 28px;
     color: #000000;
+    grid-column: 1 / -1;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.about-hotels {
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 .pagination {
@@ -694,9 +730,20 @@ body {
 }
 
 .hotels-list{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 340px 340px 340px;
+    gap: 20px;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hotel-card{
+    display: grid;
+    grid-template-columns: 140px 140px;
+    gap: 16px 20px;
+
 }
 
 .breadcrumbs-item {
