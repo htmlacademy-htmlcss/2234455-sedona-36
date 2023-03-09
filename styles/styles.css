@@ -145,17 +145,16 @@ body {
     text-decoration: none;
     text-align: center;
     padding: 8px 50px;
-    width: 140px;
     background-color: #756157;
     color: #FFFFFF;
 }
+
 
 .add-to-favourites,
 .added-to-favourites {
     text-decoration: none;
     text-align: center;
     padding: 8px 50px;
-    width: 140px;
     background-color: #82B3D3;
     color: #FFFFFF;
 }
@@ -549,7 +548,6 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: #333333;
-    width: 140px;
     min-height: 37px;
     background: #F2F2F2;
     border-radius: 4px;
@@ -559,11 +557,16 @@ body {
     padding-right: 22px;
 }
 
+.product-card-image {
+    grid-column: 1 / -1;
+}
+
 .hotel-name {
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
     color: #000000;
+    grid-column: 1 / -1;
 }
 
 .pagination {
@@ -694,9 +697,20 @@ body {
 }
 
 .hotels-list{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 340px 340px 340px;
+    gap: 20px;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hotel-card{
+    display: grid;
+    grid-template-columns: 140px 140px;
+    gap: 16px 20px;
+
 }
 
 .breadcrumbs-item {
