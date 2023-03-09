@@ -556,9 +556,11 @@ body {
 .type-of-hotel,
 .price {
     font-size: 18px;
-    line-height: 21px;
     color: #333333;
     text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+
 }
 
 .price {
@@ -590,13 +592,10 @@ body {
 .hotel-name {
     font-weight: 700;
     font-size: 24px;
-    line-height: 28px;
     color: #000000;
     grid-column: 1 / -1;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .about-hotels {
     padding-left: 70px;
