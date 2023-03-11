@@ -546,11 +546,34 @@ body {
 }
 
 .sorting {
+    width: 100%;
     font-family: inherit;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     color: #333333;
+    appearance: none;
+    border: 2px solid #e5e5e5;
+    border-radius: 4px;
+    padding: 12px 20px;
+    background-image: url(../images/sorting.svg);
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    padding-right: 40px;
+}
+
+.sorting:hover {
+    border-color: #68a2ca;
+}
+
+.sorting:focus {
+    border-color: #3F5E72;
+}
+
+.sorting:disabled {
+    color: #000000;
+    border: 2px solid #000000;
+    opacity: 0.3;
 }
 
 .type-of-hotel,
@@ -600,6 +623,14 @@ body {
 .about-hotels {
     padding-left: 70px;
     padding-right: 70px;
+}
+
+.catalog-header {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 56px;
+    margin-bottom: 56px;
+
 }
 
 .pagination {
