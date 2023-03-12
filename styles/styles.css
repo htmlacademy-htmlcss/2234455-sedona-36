@@ -26,6 +26,7 @@ html {
 }
 
 .page-header {
+    position: relative;
     padding-left: 70px;
     padding-right: 70px;
     padding-top: 0;
@@ -36,7 +37,11 @@ html {
 .logo {
     display: block;
     width: 140px;
-    margin-bottom: -6px;
+    margin-bottom: -11px;
+}
+
+.logo-image{
+    display: block;
 }
 
 body {
@@ -84,10 +89,7 @@ body {
 
 .navigation-link {
     display: block;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 16px;
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
@@ -97,10 +99,7 @@ body {
 
 .user-link {
     display: block;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 16px;
     min-height: 25px;
     min-width: 30px;
 }
@@ -210,7 +209,7 @@ body {
 .welcome {
     background-image: url(../images/index-background.jpg);
     background-repeat: repeat;
-    background-size: cover;
+    background-size: 1200px 485px;
     background-position: top center;
 }
 
@@ -264,20 +263,48 @@ body {
 
 .advantages-service-item-housing {
     background-image: url(../images/house.svg);
+    background-size: 72px 75px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-position: center top 81px;
+}
+
+.advantages-housing {
+    margin-top: 183px;
+    margin-left: 85px;
+    margin-right: 85px;
 }
 
 .advantages-service-item-food {
     background-image: url(../images/food.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 74px 70px;
+    background-position: center top 82px;
+}
+
+.advantages-food{
+    margin-top: 183px;
+    margin-right: 85px;
+    margin-left: 85px;
+}
+
+.advantages-description {
+    margin-top: 241px;
+    margin-bottom: 81px;
+    margin-left: 85px;
+    margin-right: 85px;
 }
 
 .advantages-service-item-souvenirs {
     background-image: url(../images/present.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 64px 76px;
+    background-position: center top 79px;
+}
+
+.advantages-souvenirs {
+    margin-top: 183px;
+    margin-left: 85px;
+    margin-right: 85px;
 }
 
 .newsletter-background {
@@ -428,7 +455,7 @@ body {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 10px;
     line-height: 10px;
     text-align: center;
